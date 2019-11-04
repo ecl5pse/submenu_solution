@@ -1,0 +1,33 @@
+body{
+    background-color: grey;
+
+
+}
+.navigator{
+    font-size: 0;
+
+}
+
+.navItem{
+    color:white;
+    display: inline-block;
+    font-size: 20px;
+    width:200px;
+    box-sizing: border-box;
+
+    border: 1px solid;
+    text-align: center;
+    text-transform: capitalize;
+;
+}
+.navItem > a{
+    width: 100%;
+}
+ .navItemStyle{
+     background-color: green;
+     color: white;
+     text-align: center;
+     border: 1px solid;
+     box-sizing: border-box;
+
+ }
