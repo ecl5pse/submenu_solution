@@ -1,33 +1,73 @@
 body{
-    background-color: grey;
+   padding: 30px;
+    background-color: red;
 
 
 }
-.navigator{
+a, a:visited, a:active, a:link, a:hover {
+    text-decoration: none;
+}
+
+.navContainer{
+
+    margin-bottom: 40px;
+
+}
+
+.navigation{
     font-size: 0;
-
 }
+
+
 
 .navItem{
     color:white;
+    background-color: green;
     display: inline-block;
     font-size: 20px;
     width:200px;
     box-sizing: border-box;
-
     border: 1px solid;
     text-align: center;
+    font-size: 18px ;
     text-transform: capitalize;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    font-weight: 500;
 
 }
-.navItem > a{
-    width: 100%;
-}
- .navItemStyle{
-     background-color: green;
-     color: white;
-     text-align: center;
-     border: 1px solid;
-     box-sizing: border-box;
 
- }
+.navItem:hover{
+    background-color: blue;
+}
+
+
+.navItemContainer{
+    display: inline-block;
+    position: relative;
+}
+
+
+.submenu{
+    display: none;
+    position: absolute;
+}
+
+.dropDownMenu{
+    top:100%;
+    left:0;
+}
+
+.dropRightMenu{
+    left:100%;
+    top:0;
+
+}
+
+.navItemContainer:hover > .submenu{
+    display: block;
+}
+
+.submenuItem{
+    display: list-item;
+}
